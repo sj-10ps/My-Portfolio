@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, ExternalLink, Star, Rocket } from 'lucide-react';
+import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, ExternalLink, Star, Rocket, Book, GraduationCap } from 'lucide-react';
 import { useSelector,useDispatch } from 'react-redux';
 import { setActiveSection } from '../redux/renderoptionslice';
 const Sideoptions = () => {
@@ -11,6 +11,10 @@ const Sideoptions = () => {
               <button className={`nav-btn ${activeSection === 'about' ? 'active' : ''}`} onClick={() => dispatch(setActiveSection('about'))}>
                 <User className="me-3" size={20} />
                 About
+              </button>
+              <button className={`nav-btn ${activeSection === 'about' ? 'active' : ''}`} onClick={() => dispatch(setActiveSection('education'))}>
+                <GraduationCap className="me-3" size={20} />
+                Education
               </button>
               <button className={`nav-btn ${activeSection === 'skills' ? 'active' : ''}`} onClick={() => dispatch(setActiveSection('skills'))}>
                 <Code className="me-3" size={20} />

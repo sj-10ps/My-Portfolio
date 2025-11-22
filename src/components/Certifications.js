@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, ExternalLink, Star, Rocket } from 'lucide-react';
 import { certifications } from '../data/datas';
+import { Link } from 'react-router-dom';
 const Certifications = () => {
     return (
            <div className="animate-slide-up">
@@ -14,12 +15,16 @@ const Certifications = () => {
                   <div className="glass-card p-4 cert-card">
                     <div className="d-flex align-items-start">
                       <Award className="text-cyan me-3 flex-shrink-0" size={28} />
+                      
                       <div>
                         <h6 className="text-white mb-1">{cert.name}</h6>
                         <p className="text-light-muted small mb-1">{cert.issuer}</p>
                         <span className="year-badge">{cert.year}</span>
+                       
                       </div>
+                      
                     </div>
+                       <Link to={`/viewcertificate/${cert.id}`} className="btn btn-sm btn-outline-danger mt-3 me-4">View Certificate <ExternalLink/></Link>
                   </div>
                 </div>
               ))}

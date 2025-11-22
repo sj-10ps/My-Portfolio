@@ -25,7 +25,8 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
 
     }],
       icon: '💼',
-      link:'https://jobseek-frontend-e93g.onrender.com'
+      link:'https://jobseek-frontend-e93g.onrender.com',
+      github:["https://github.com/sj-10ps/jobseek-frontend","https://github.com/sj-10ps/jobseek-backend"]
     },
     {
       title: 'Jobseek Mobile App',
@@ -40,7 +41,8 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
 
     }],
       icon: '💼',
-      link:'https://jobseek-frontend-e93g.onrender.com'
+      link:'',
+      github:["https://github.com/sj-10ps/jobseek-mobile","https://github.com/sj-10ps/jobseek-backend"]
     },
     {
       title: 'Refugee Rescue Web App',
@@ -59,124 +61,119 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
 
     }],
       icon: '👝',
-      link:'https://refugee-rescue-1.onrender.com/'
+      link:'https://refugee-rescue-1.onrender.com/',
+      github:["https://github.com/sj-10ps/Refugee-rescue"]
     },
     {
-      title: 'Thozhilurapp Management System',
+      title: 'Thozhilurapp Management System (WEB)',
       tech: 'Python Flask',
       type:'web',
       description: 'Web app for managing kerala thozhilurapp.Consists of three modules admin,overseer,payments.The app helps in automating the workflow includes work estimation,work approval,attendance tracking,wage estimation,wage approval, insurance and accident approval,mate assignment etc ..',
        demo:[{
-        module:'company',
-        username:'messi@gmail.com',
-        password:'sj1234'
+        module:'Admin',
+        username:'admin',
+        password:'admin'
       },
     {
-      module:'user',
-        username:'pssoorajkbfc@gmail.com',
-        password:'sj1234'
+      module:'Overseer',
+        username:'ovr',
+        password:'ovr'
 
     },{
-       module:'admin',
-        username:'sjjs@gmail.com',
-        password:'sj1234'
+       module:'Payment',
+        username:'payment',
+        password:'payment'
 
     }],
-      icon: '⛏'
+      icon: '⛏',
+      link:'https://thozhilurapp-web-app.onrender.com/',
+      github:["https://github.com/sj-10ps/Thozhilurapp-web-app"]
     },
     {
-      title: 'Real-Time Chat Application',
-      tech: 'MERN + Socket.io',
-      type:'web',
+      title: 'Thozhilurapp Management System (Android)',
+      tech: 'Android Java',
+      type:'mobile',
        demo:[{
-        module:'company',
-        username:'messi@gmail.com',
-        password:'sj1234'
+        module:'Mate',
+        username:'mate',
+        password:'mate'
       },
     {
-      module:'user',
-        username:'pssoorajkbfc@gmail.com',
-        password:'sj1234'
-
-    },{
-       module:'admin',
-        username:'sjjs@gmail.com',
-        password:'sj1234'
+      module:'Worker',
+        username:'worker',
+        password:'worker'
 
     }],
-      description: 'Real-time messaging platform with group chats, file sharing, and video calls.',
+      description: 'Android app for automating kerala thozhilurapp..includes features like worker assignment,view assigned duties,attendance tracking, complaint registration,viewing wage bill and insurance details etc',
 
-      icon: '💬',
-      link:'https://jobseek-frontend-e93g.onrender.com'
+      icon: '⛏',
+      link:'',
+      github:["https://github.com/sj-10ps/Thozhilurapp-Android-app","https://github.com/sj-10ps/Thozhilurapp-web-app"]
     },
     {
-      title: 'Portfolio CMS',
-      tech: 'Django + React',
-      type:'web',
-       demo:[{
-        module:'company',
-        username:'messi@gmail.com',
-        password:'sj1234'
-      },
-    {
-      module:'user',
-        username:'pssoorajkbfc@gmail.com',
-        password:'sj1234'
-
-    },{
-       module:'admin',
-        username:'sjjs@gmail.com',
-        password:'sj1234'
-
-    }],
-      description: 'Content management system for developers to showcase their projects and blogs.',
-      icon: '🎨',
-      link:'https://jobseek-frontend-e93g.onrender.com'
+      title: 'OkaBoka',
+      tech: 'React Native(Tamagui UI)',
+      type:'mobile',
+       demo:[],
+      description: 'A Tamagui Ui Demo App',
+      icon: '📸',
+      link:'',
+      github:["https://github.com/sj-10ps/OkaBoka"]
     },
   ];
 
 
 
   const experience = [
+
     {
-      role: 'Senior Full Stack Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2022 - Present',
-      description: 'Leading development of scalable web applications using MERN stack and Django. Mentoring junior developers and architecting cloud-based solutions.',
-      highlights: ['Led team of 5 developers', 'Reduced load time by 60%', 'Deployed 10+ production apps']
+      id:'1',
+      role: 'MERN Stack Developer Intern',
+      company: 'RISS TECHNOLOGIES CALICUT',
+      period: 'May 2025 - Sep 2025',
+      description: 'Developed a full stack web application called Jobseek using MERN stack and deployed it in render.Gained hands on experience in MERN stack developed as well as tools like github,postman and render deployment.',
+      highlights: ['React.js','Express.js','Node.js','MongoDB',"Redux","Socket.io","Github","Postman","Render Hosting"],
+      certificate:'/merncertificate.pdf',
+      link:'https://jobseek-frontend-e93g.onrender.com'
     },
-    {
-      role: 'Mobile App Developer',
-      company: 'StartUp Co.',
-      period: '2021 - 2022',
-      description: 'Built cross-platform mobile applications using React Native with focus on performance and user experience.',
-      highlights: ['Built 8 mobile apps', '4.8★ average rating', '100K+ downloads']
+      {
+        id:'2',
+      role: 'Web Developer Intern',
+      company: 'ETHINOVIA CONSULTANCY PRIVATE LIMITED',
+      period: 'Jan 2025 - May 2025',
+      description: 'Developed their Official website using HTML,CSS,Bootstrap Template',
+      highlights: ["HTML","CSS","BOOTSTRAP","Github"],
+      certificate:'/ethinoviacertificate.pdf',
+      link:'https://ethinovia.com/'
     },
-    {
-      role: 'Junior Full Stack Developer',
-      company: 'Digital Agency',
-      period: '2020 - 2021',
-      description: 'Developed responsive web applications and REST APIs. Collaborated with designers to implement pixel-perfect UIs.',
-      highlights: ['20+ client projects', 'API integration expert', 'Agile methodology']
-    },
+    
   ];
 
+  
+
   const certifications = [
-    { name: 'MongoDB Certified Developer', issuer: 'MongoDB University', year: '2023' },
-    { name: 'AWS Certified Solutions Architect', issuer: 'Amazon Web Services', year: '2023' },
-    { name: 'Meta React Native Specialization', issuer: 'Meta', year: '2022' },
-    { name: 'Full Stack Web Development', issuer: 'freeCodeCamp', year: '2021' },
-    { name: 'Python for Data Science', issuer: 'IBM', year: '2021' },
-    { name: 'Advanced JavaScript', issuer: 'Udemy', year: '2020' },
+    { id:"1",name: 'Meta Front-End Developer', issuer: 'Meta', year: '2025' ,pdf:'/metafrontend.pdf'},
+    { id:"2",name: 'Meta Android Developer', issuer: 'Meta', year: '2025' ,pdf:'/metaandroid.pdf'},
+    { id:"3",name: 'Meta React Certification', issuer: 'Meta', year: '2025' ,pdf:'/metareact.pdf'},
+    { id:"4",name: 'Meta React Native Certification', issuer: 'Meta', year: '2025' ,pdf:'/metarn.pdf'},
+    { id:"5",name: 'IBM Node.js and Express.js Certification', issuer: 'IBM', year: '2025' ,pdf:'/ibmnodeexpress.pdf'},
+    { id:"6",name: 'IBM Django with SQL Certification', issuer: 'IBM', year: '2025' ,pdf:'/ibmdjango.pdf'},
+    {id:"7",name:'Meta JavaScript Certification',issuer:'Meta',year:'2025',pdf:'/metajavascript.pdf'},
+    {id:"8",name:'IBM Python Certification',issuer:'IBM',year:'2025',pdf:'/ibmpython.pdf'},
+     {id:"9",name:'Meta Version Control (Github)',issuer:'Meta',year:"2025",pdf:'/metaversioncontrol.pdf'},
+    {id:"10",name:'Meta HTML CSS Certification',issuer:'Meta',year:'2025',pdf:'/ibmhtmlcss.pdf'},
+    {id:"11",name:'Full stack development using Django Certification',issuer:'Fortune Institute of Technology',year:'2024',pdf:'/fullstackdjango.pdf'},
+    {id:"12",name:'NASA Hackathon Participation Certificate',issuer:'NASA',year:'2024',pdf:'/nasa.pdf'},
   ];
 
   const achievements = [
-    { icon: '🏆', text: 'Built 15+ production-ready applications', color: '#FFD700' },
-    { icon: '🌟', text: 'Contributed to 10+ open source projects', color: '#00D9FF' },
-    { icon: '👥', text: 'Led a team of 5 developers successfully', color: '#FF6B6B' },
-    { icon: '⚡', text: 'Improved app performance by 40%', color: '#4ECDC4' },
-    { icon: '📚', text: 'Published 5 technical articles', color: '#95E1D3' },
-    { icon: '🎤', text: 'Speaker at 3 tech conferences', color: '#F38181' },
+    { icon: '🏆', text: 'Bharat Scouts and Guides Rajyapuraskar Winner', color: '#FFD700' },
+    { icon: '🌟', text: 'Participated in NASA Hackathon', color: '#00D9FF' },
+    { icon: '👥', text: 'Team Lead of College Final Year Project', color: '#FF6B6B' },
+    { icon: '🎤', text: '1 Year Home Tutor Experience', color: '#F38181' },
+    { icon: '⚡', text: '20+ Github Repos', color: '#4ECDC4' },
+    { icon: '📱', text: '4+ Web+Mobile applications build', color: '#95E1D3' },
+    
   ];
 
   const badges = [
@@ -185,6 +182,10 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
     { name: 'Credly Badges', count: 'Meta & IBM Badges', icon: <Award size={24} />,link:"https://www.credly.com/users/sooraj-ps.c7a337d2" },
    
   ];
+
+
+
+
 
 
   const projectshots=[
@@ -204,8 +205,55 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
       ]
      },
      {
-      title:''
+      title:'Thozhilurapp Management System (Android)',
+      images:[
+        "/tms/tms1.png",
+         "/tms/tms2.png",
+          "/tms/tms3.png",
+           "/tms/tms4.png",
+            "/tms/tms5.png",
+             "/tms/tms6.png",
+              "/tms/tms7.png",
+               "/tms/tms8.png",
+                "/tms/tms9.png",
+                 "/tms/tms10.png",
+                  "/tms/tms11.png",
+      ]
+     },
+     {
+      title:"OkaBoka",
+      images:[
+        "/okaboka/01.jpg",
+         "/okaboka/02.jpg",
+          "/okaboka/03.jpg",
+           "/okaboka/04.jpg",
+            "/okaboka/05.jpg",
+             "/okaboka/06.jpg",
+              "/okaboka/07.jpg",
+               "/okaboka/08.jpg",
+        
+      ]
      }
 
   ]
-  export {skills,projects,experience,certifications,achievements,badges,projectshots}
+
+
+    const educationData = [
+  {
+    institution: 'University of Calicut',
+    course: 'Bachelor of Computer Applications',
+    from: '2022',
+    to: '2025',
+    grade: '84%'
+  },
+  {
+    institution: 'VR.Appu Memorial School Thaikkad South',
+    course: 'Science',
+    from: '2020',
+    to: '2022',
+    grade: '93%'
+  }
+];
+
+
+  export {skills,projects,experience,certifications,achievements,badges,projectshots,educationData}

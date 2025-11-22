@@ -3,18 +3,19 @@ import './App.css';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import Projectshot from './components/Projectshot';
+import Viewexpcertificate from './components/Viewexpcertificate';
+import ViewCertificate from './components/ViewCertificate';
 
 function App() {
   return (
       <div className="portfolio-container">
-          <link 
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-            rel="stylesheet"
-          />
+         
    <BrowserRouter>
    <Routes>
     <Route path='/' element={<Portfolio/>}/>
     <Route path='projectshots/:title' element={<Projectshot/>}/>
+     <Route path='viewexpcertificate/:id' element={<Viewexpcertificate/>}/>
+      <Route path='viewcertificate/:certid' element={<ViewCertificate/>}/>
    </Routes>
    </BrowserRouter>
    </div>

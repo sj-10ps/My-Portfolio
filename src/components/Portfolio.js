@@ -37,7 +37,9 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="footer">
         <div className="container text-center">
-          <p className="text-light-muted mb-0">© 2024 Sooraj P.S. Built with React & Bootstrap</p>
+           <a href="mailto:sps24723@gmail.com" className="text-cyan me-3" style={{textDecoration: 'none'}}>MAIL ME  <Mail size={24} />
+      </a>
+          <p className="text-light-muted mb-0">© 2025 Sooraj P.S. Built Using React & Bootstrap</p>
         </div>
       </footer>
     </>

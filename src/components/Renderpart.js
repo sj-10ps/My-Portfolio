@@ -8,6 +8,7 @@ import Projects from './Projects';
 import Experience from './Experience';
 import Certifications from './Certifications';
 import Achievements from './Achievements';
+import Education from './Education';
 
 const Renderpart = () => {
     const {activeSection}=useSelector(state=>state.renderoption)
@@ -23,6 +24,10 @@ const Renderpart = () => {
         return (
        <Skills/>
         );
+      case 'education':
+        return(
+          <Education/>
+        )
       
       case 'projects':
         return (
