@@ -12,7 +12,7 @@ const Sideoptions = () => {
                 <User className="me-3" size={20} />
                 About
               </button>
-              <button className={`nav-btn ${activeSection === 'about' ? 'active' : ''}`} onClick={() => dispatch(setActiveSection('education'))}>
+              <button className={`nav-btn ${activeSection === 'education' ? 'active' : ''}`} onClick={() => dispatch(setActiveSection('education'))}>
                 <GraduationCap className="me-3" size={20} />
                 Education
               </button>
