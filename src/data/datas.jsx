@@ -110,6 +110,16 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
       link:'',
       github:["https://github.com/sj-10ps/Thozhilurapp-Android-app","https://github.com/sj-10ps/Thozhilurapp-web-app"]
     },
+      {
+      title: 'Yourcanteen',
+      tech: 'Kotlin + Jetpack Compose',
+      type:'mobile',
+       demo:[],
+      description: 'A mini restaurant app were users can edit profile,view food items,add to cart and order',
+      icon: '🍕',
+      link:'',
+      github:["https://github.com/sj-10ps/Yourcanteen","https://github.com/sj-10ps/foodordering-kotlindjango"]
+    },
     {
       title: 'OkaBoka',
       tech: 'React Native(Tamagui UI)',
@@ -120,6 +130,7 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
       link:'',
       github:["https://github.com/sj-10ps/OkaBoka"]
     },
+  
   ];
 
 
@@ -231,6 +242,21 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
              "/okaboka/06.jpg",
               "/okaboka/07.jpg",
                "/okaboka/08.jpg",
+        
+      ]
+     },
+        {
+      title:"Yourcanteen",
+      images:[
+        "/yourcanteen/yc1.png",
+         "/yourcanteen/yc2.png",
+          "/yourcanteen/yc3.png",
+           "/yourcanteen/yc4.png",
+            "/yourcanteen/yc5.png",
+             "/yourcanteen/yc6.png",
+              "/yourcanteen/yc7.png",
+               "/yourcanteen/yc8.png",
+               "/yourcanteen/yc9.png",
         
       ]
      }
