@@ -44,13 +44,13 @@ const About = () => {
            
 
               <div className="d-flex flex-wrap gap-2 ">
-                <a href="mailto:sps24723@gmail.com" className="btn btn-cyan">
+                <a href="mailto:sps24723@gmail.com" className="btn btn-cyan" >
                   <Mail className="me-2" size={18} />
                   Contact Me
                 </a>
-                <a href="/myresume.pdf" className="btn btn-outline-primary">
+                <a href="https://drive.google.com/file/d/1hn7t3HcVmn6gvibsh-0bs291cXdeySmF/view?usp=sharing" className="btn btn-outline-primary" target="_blank">
                   <FileText className="me-2" size={18} />
-                  Download Resume
+                  View Resume
                 </a>
               </div>
             </div>

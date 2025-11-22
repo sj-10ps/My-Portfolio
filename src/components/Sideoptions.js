@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, ExternalLink, Star, Rocket, Book, GraduationCap } from 'lucide-react';
 import { useSelector,useDispatch } from 'react-redux';
 import { setActiveSection } from '../redux/renderoptionslice';
 const Sideoptions = () => {
      const {activeSection}=useSelector((state)=>state.renderoption)
+  
      const dispatch = useDispatch();
     return (
             <div className="col-lg-3">

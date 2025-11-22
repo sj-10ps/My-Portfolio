@@ -143,7 +143,7 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
       period: 'Jan 2025 - May 2025',
       description: 'Developed their Official website using HTML,CSS,Bootstrap Template',
       highlights: ["HTML","CSS","BOOTSTRAP","Github"],
-      certificate:'/ethinoviacertificate.pdf',
+      certificate:'https://drive.google.com/file/d/10OeJb4q2UcbDOY-ged8asz6kcDBkTBXj/view?usp=sharing',
       link:'https://ethinovia.com/'
     },
     
@@ -152,18 +152,18 @@ import { Github, Linkedin, Mail, Award, Briefcase, Code, FileText, User, Externa
   
 
   const certifications = [
-    { id:"1",name: 'Meta Front-End Developer', issuer: 'Meta', year: '2025' ,pdf:'/metafrontend.pdf'},
-    { id:"2",name: 'Meta Android Developer', issuer: 'Meta', year: '2025' ,pdf:'/metaandroid.pdf'},
-    { id:"3",name: 'Meta React Certification', issuer: 'Meta', year: '2025' ,pdf:'/metareact.pdf'},
-    { id:"4",name: 'Meta React Native Certification', issuer: 'Meta', year: '2025' ,pdf:'/metarn.pdf'},
-    { id:"5",name: 'IBM Node.js and Express.js Certification', issuer: 'IBM', year: '2025' ,pdf:'/ibmnodeexpress.pdf'},
-    { id:"6",name: 'IBM Django with SQL Certification', issuer: 'IBM', year: '2025' ,pdf:'/ibmdjango.pdf'},
-    {id:"7",name:'Meta JavaScript Certification',issuer:'Meta',year:'2025',pdf:'/metajavascript.pdf'},
-    {id:"8",name:'IBM Python Certification',issuer:'IBM',year:'2025',pdf:'/ibmpython.pdf'},
-     {id:"9",name:'Meta Version Control (Github)',issuer:'Meta',year:"2025",pdf:'/metaversioncontrol.pdf'},
-    {id:"10",name:'Meta HTML CSS Certification',issuer:'Meta',year:'2025',pdf:'/ibmhtmlcss.pdf'},
-    {id:"11",name:'Full stack development using Django Certification',issuer:'Fortune Institute of Technology',year:'2024',pdf:'/fullstackdjango.pdf'},
-    {id:"12",name:'NASA Hackathon Participation Certificate',issuer:'NASA',year:'2024',pdf:'/nasa.pdf'},
+    { id:"1",name: 'Meta Front-End Developer', issuer: 'Meta', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/specialization/certificate/LFA7DROVWEFF'},
+    { id:"2",name: 'Meta Android Developer', issuer: 'Meta', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/specialization/certificate/UNXJVGQM307J'},
+    { id:"3",name: 'Meta React Certification', issuer: 'Meta', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/certificate/2EWPSG96WEHQ'},
+    { id:"4",name: 'Meta React Native Certification', issuer: 'Meta', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/certificate/M2F9THD8Z3IG'},
+    { id:"5",name: 'IBM Node.js and Express.js Certification', issuer: 'IBM', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/certificate/NEVPB62DIQ02'},
+    { id:"6",name: 'IBM Django with SQL Certification', issuer: 'IBM', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/certificate/SAMMOGNF3TSK'},
+    {id:"7",name:'Meta JavaScript Certification',issuer:'Meta',year:'2025',pdf:'https://www.coursera.org/account/accomplishments/certificate/LN8APB1OJTC9'},
+    {id:"8",name:'IBM Python Certification',issuer:'IBM',year:'2025',pdf:'https://www.coursera.org/account/accomplishments/certificate/557XK8V43PIU'},
+     {id:"9",name:'Meta Version Control (Github)',issuer:'Meta',year:"2025",pdf:'https://www.coursera.org/account/accomplishments/certificate/DILLZ6PG1X10'},
+    {id:"10",name:'Meta HTML CSS Certification',issuer:'Meta',year:'2025',pdf:'https://www.coursera.org/account/accomplishments/certificate/Z965GU8DQ37H'},
+    {id:"11",name:'Full stack development using Django Certification',issuer:'Fortune Institute of Technology',year:'2024',pdf:'https://drive.google.com/file/d/1Elmsr4Q_1Atu9FTySIPPmDJhouP3i6e-/view?usp=sharing'},
+    {id:"12",name:'NASA Hackathon Participation Certificate',issuer:'NASA',year:'2024',pdf:'https://drive.google.com/file/d/1MrIt2LT1bson1MbOHOeAE0IPwpPlvnSg/view?usp=sharing'},
   ];
 
   const achievements = [

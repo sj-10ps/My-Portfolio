@@ -12,7 +12,7 @@ const Viewexpcertificate = () => {
            <iframe 
     src={Certificateurl} 
     style={{ width: '100%', height: '100%' }} 
-    
+    target="_blank"
 ></iframe>
             
         </div>

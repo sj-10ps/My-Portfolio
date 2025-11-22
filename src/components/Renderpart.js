@@ -12,7 +12,7 @@ import Education from './Education';
 
 const Renderpart = () => {
     const {activeSection}=useSelector(state=>state.renderoption)
-     
+    
     
     switch(activeSection) {
       case 'about':

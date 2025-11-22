@@ -29,7 +29,7 @@ const Projects = () => {
                       <>
                           <h5  className="text-primary mb-2">Demo logins</h5>
                         <h6 className="text-white mb-2">{d.module}</h6>
-                        <div className='d-flex'>
+                        <div className='d-flex flex-column'>
                        <span style={{color:'#a2e4ecff'}} className=' mb-2 me-2' >Username</span> <div className="tech-badge mb-2 me-2">{d.username}</div>
                          <span  style={{color:'#a2e4ecff'}} className=' mb-2  me-2'>password</span> <div className="tech-badge mb-2">{d.password}</div>
                         </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                     ))}
                        </div>
                    {project.type==='web'?
-                    (<a href={project.link} className="btn btn-sm btn-outline-primary ">
+                    (<a href={project.link} className="btn btn-sm btn-outline-primary " target="_blank">
                       View Project <ExternalLink size={14} className="ms-1" />
                     </a>)
                    :(
@@ -47,14 +47,14 @@ const Projects = () => {
                    }
                         <div className='d-flex mt-2'>
                       {project.github.length>1?project.github.map((l,index)=>(
-                        <a href={l} className="btn btn-sm btn-outline-primary me-2"  key={index}>
+                        <a href={l} className="btn btn-sm btn-outline-primary me-2"  key={index} target="_blank">
                           {index===0?(<>Github Repo(frontend) <ExternalLink size={14} className="ms-1" /></>):(<>Github Repo(backend)<ExternalLink size={14} className="ms-1" /></>)}
                          
                   
                     </a>
 
                         )):(
-                           <a href={project.github[0]} className="btn btn-sm btn-outline-primary me-2"  >
+                           <a href={project.github[0]} className="btn btn-sm btn-outline-primary me-2" target="_blank" >
                           Github Repo<ExternalLink size={14} className="ms-1" /> </a>
                           
                         )}

@@ -4,15 +4,16 @@ import { useParams } from 'react-router-dom';
 
 const ViewCertificate = () => {
     const {certid}=useParams()
-    const certificateurl=certifications.find(c=>c.id===certid)?.pdf
+    const certificateurl=certifications.find(c=>c.id===certid).pdf
 
     return (
           <div style={{ width: "100%", height: "100vh", overflow: "auto" }}>
-           <iframe 
+           <a 
     src={certificateurl} 
     style={{ width: '100%', height: '100%' }} 
+    target="_blank"
     
-></iframe>
+></a>
             
         </div>
     );

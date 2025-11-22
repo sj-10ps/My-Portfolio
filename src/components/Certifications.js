@@ -24,7 +24,7 @@ const Certifications = () => {
                       </div>
                       
                     </div>
-                       <Link to={`/viewcertificate/${cert.id}`} className="btn btn-sm btn-outline-danger mt-3 me-4">View Certificate <ExternalLink/></Link>
+                       <a href={cert.pdf} className="btn btn-sm btn-outline-danger mt-3 me-4" target="_blank">View Certificate <ExternalLink/></a>
                   </div>
                 </div>
               ))}

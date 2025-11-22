@@ -26,8 +26,8 @@ const Experience = () => {
                     </span>
                   ))}
                 </div>
-                 <Link to={`/viewexpcertificate/${exp.id}`} className="btn btn-sm btn-outline-primary mt-3 me-4">View Certificate <ExternalLink size={14} className="ms-1" /></Link>
-                 <Link to={exp.link} className="btn btn-sm btn-outline-danger mt-3">View Project <ExternalLink size={14} className="ms-1" /></Link>
+                 <a href={exp.certificate} className="btn btn-sm btn-outline-primary mt-3 me-4" target="_blank">View Certificate <ExternalLink size={14} className="ms-1" /></a>
+                 <a href={exp.link} className="btn btn-sm btn-outline-danger mt-3" target="_blank">View Project <ExternalLink size={14} className="ms-1" /></a>
               </div>
             ))}
           </div>
