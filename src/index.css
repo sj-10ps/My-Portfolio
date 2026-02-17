@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* 1. Define your custom colors as variables */
+  --color-react-blue: #61dafb;
+  --color-dark-bg: #282c34;
+
+  /* 2. Define the custom spin animation */
+  --animate-logo-spin: logo-spin 20s linear infinite;
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
