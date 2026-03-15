@@ -59,9 +59,19 @@ import { Github, Linkedin, Award } from 'lucide-react';
         password:'sj1234'
 
     }],
+
       icon: '💼',
       link:'',
       github:["https://github.com/sj-10ps/jobseek-mobile","https://github.com/sj-10ps/jobseek-backend"]
+    },
+      {
+      title: 'ShopKart Web App',
+      type:'web',
+      tech: 'NEXT.js',
+      description: '	A Web app for searching and booking rental properties.Features include filtering,sending enquiry messages,pagination,Map,Google login,nextauth,image carousal etc...',
+      icon: '🏠',
+      link:'https://shopkart-xi.vercel.app',
+      github:["https://github.com/sj-10ps/shopkart"]
     },
     {
       title: 'Refugee Rescue Web App',
@@ -182,6 +192,7 @@ import { Github, Linkedin, Award } from 'lucide-react';
   
 
   const certifications = [
+     { name: 'IBM Full Stack JavaScript Developer Specialization', issuer: 'Meta', year: '2026' ,pdf:'https://www.coursera.org/account/accomplishments/specialization/certificate/EA7V5M69HKUR'},
     { name: 'Meta Front-End Developer', issuer: 'Meta', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/specialization/certificate/LFA7DROVWEFF'},
     { name: 'Meta Android Developer', issuer: 'Meta', year: '2025' ,pdf:'https://www.coursera.org/account/accomplishments/specialization/certificate/UNXJVGQM307J'},
      { name: '<Packt> Next.js Certification', issuer: '<Packt>', year: '2026' ,pdf:'https://www.coursera.org/account/accomplishments/certificate/88VIHJSMEV0U'},
