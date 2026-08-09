@@ -32,11 +32,11 @@ const About = () => {
               width="32" 
               alt="Hand wave"
             />
-            Hi! I'm <span className="font-extrabold text-[#00D9FF] drop-shadow-[0_0_5px_rgba(0,217,255,0.3)]">Sooraj P.S</span>, a passionate Full Stack Developer specializing in JavaScript, TypeScript, Next.js, and the MERN stack.
+            Hi! I'm <span className="font-extrabold text-[#00D9FF] drop-shadow-[0_0_5px_rgba(0,217,255,0.3)]">Sooraj P.S</span>, a passionate Full Stack Developer specializing in JavaScript,Java TypeScript, Next.js,Spring Boot and the MERN stack.
           </p>
 
           <p className="mb-4 text-lg leading-relaxed text-[#D1D9E6]">
-            I have project based experience in <span className="text-white font-medium">React Native</span> for mobile apps, <span className="text-white font-medium">Kotlin with Jetpack Compose</span>, and <span className="text-white font-medium">Python Django</span> for backend solutions.
+            I have project based experience in <span className="text-white font-medium">Next js and MERN Stack</span> for Full Stack Apps <span className="text-white font-medium">React Native</span> for mobile apps, <span className="text-white font-medium">Kotlin with Jetpack Compose</span>, and <span className="text-white font-medium">Spring Boot</span> and <span className="text-white font-medium">Django</span>  for backend solutions.
           </p>
 
           <p className="mb-4 text-lg leading-relaxed text-[#B8C5D6]">

@@ -27,7 +27,7 @@ function Header() {
 
         {/* Improved subtitle visibility */}
         <p className="mt-4 text-sm md:text-xl font-semibold tracking-[4px] text-[#00D9FF] drop-shadow-[0_0_8px_rgba(0,0,0,0.7)]">
-          NEXT.JS | MERN | REACT NATIVE | DJANGO | KOTLIN JETPACK
+          NEXT.JS | MERN | SPRING BOOT | REACT NATIVE | DJANGO 
         </p>
 
         {/* Social Buttons */}

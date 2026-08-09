@@ -1,10 +1,11 @@
 import { Github, Linkedin, Award } from 'lucide-react'; 
  
  const skills = [
-   'JavaScript','TypeScript','Next.js','React.js','Express.js',  'Node.js','MongoDB', 
+   'JavaScript','TypeScript','python','java','Next.js','React.js','Express.js',  'Node.js','Spring Boot','MongoDB',
+   'mongoose','prisma',
     'React Native','Redux','Tailwind CSS' , 'Django', 'Python','Docker',"Github Actions","CI/CD",
     'REST API', 'Socket.IO', 'PostgreSQL', 
-    'Kotlin','JetPack Compose','Bootstrap','HTML5','CSS3','Github'
+    'Kotlin','JetPack Compose','Bootstrap','HTML5','CSS3','Github','better-auth','Recharts','Vercel'
   ];
 
   const projects = [
@@ -17,6 +18,14 @@ import { Github, Linkedin, Award } from 'lucide-react';
       icon: '🏠',
       link:'https://first-next-project-local.onrender.com',
       github:["https://github.com/sj-10ps/first-next-project"]
+    },
+      {
+      title: 'Spring Boot,Express,Next.Js Rest Api',
+      type:'web',
+      tech: 'NEXT.js,Spring Boot,Express js',
+      description: 'A Rest API which cover CRUD,Pagination,Filtering,Authentication with email,password and Google auth,Authorization,Role based access,Email verification,Jwt Authentication (HttpOnly cookie and Localstorage),Validation,Forgot password,File Upload(Cloudinary) and Update,Rate Limiting.',
+      icon: '🏠',
+   
     },
      {
       title: 'My Tailwind Design Projects',
@@ -166,6 +175,15 @@ import { Github, Linkedin, Award } from 'lucide-react';
 
   const experience = [
 
+     {
+      id:'3',
+      role: 'Next js Developer(Active)',
+      company: 'Journalyst Traders,Maharashta',
+      period: 'April 2026 - present',
+      description: 'Working as the next js developer implemented Saas Dashboard with recharts,Drag and Drop ui,Customisation,Popups,Dropdowns,Filters sidebars,Responsiveness,Implemented Piecharts,Linecharts,AreaCharts,Implented filters,Sorting',
+      highlights: ['React.js','Next.js','Postgres','Recharts','gridstack'],
+
+    },
     {
       id:'1',
       role: 'MERN Stack Developer Intern',
@@ -178,7 +196,7 @@ import { Github, Linkedin, Award } from 'lucide-react';
     },
       {
         id:'2',
-      role: 'Web Developer Intern',
+      role: 'Web Developer',
       company: 'ETHINOVIA CONSULTANCY PRIVATE LIMITED',
       period: 'Jan 2025 - May 2025',
       description: 'Developed their Official website using HTML,CSS,Bootstrap Template',
@@ -213,15 +231,16 @@ import { Github, Linkedin, Award } from 'lucide-react';
     { icon: '🏆', text: 'Bharat Scouts and Guides Rajyapuraskar Winner', color: '#FFD700' },
     { icon: '🌟', text: 'Participated in NASA Hackathon', color: '#00D9FF' },
     { icon: '👥', text: 'Team Lead of College Final Year Project', color: '#FF6B6B' },
-    { icon: '🎤', text: '1 Year Home Tutor Experience', color: '#F38181' },
-    { icon: '⚡', text: '20+ Github Repos', color: '#4ECDC4' },
-    { icon: '📱', text: '4+ Web+Mobile applications build', color: '#95E1D3' },
+    { icon: '🎤', text: '2 Year Home Tutor Experience', color: '#F38181' },
+    { icon: '🌟', text: '1 Year Professional Experience', color: '#F38181' },
+    { icon: '⚡', text: '30+ Github Repos', color: '#4ECDC4' },
+    { icon: '📱', text: '8+ Web+Mobile applications build', color: '#95E1D3' },
     
   ];
 
   const badges = [
-    { name: 'GitHub', count: '20+ Repos', icon: <Github size={24} />,link:"https://github.com/sj-10ps" },
-    { name: 'LinkedIn', count: '25+ Connections', icon: <Linkedin size={24} />,link:"https://www.linkedin.com/in/ps-sooraj/" },
+    { name: 'GitHub', count: '25+ Repos', icon: <Github size={24} />,link:"https://github.com/sj-10ps" },
+    { name: 'LinkedIn', count: '25150+ Connections', icon: <Linkedin size={24} />,link:"https://www.linkedin.com/in/ps-sooraj/" },
     { name: 'Credly Badges', count: 'Meta & IBM Badges', icon: <Award size={24} />,link:"https://www.credly.com/users/sooraj-ps.c7a337d2" },
    
   ];

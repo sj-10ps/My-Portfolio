@@ -44,22 +44,22 @@ const Experience = () => {
 
                     {/* Action Buttons */}
                     <div className="flex flex-wrap gap-4">
-                        <a 
+                       {exp.certificate&& <a 
                             href={exp.certificate} 
                             className="inline-flex items-center gap-2 rounded-lg border border-[#00D9FF]/50 px-4 py-2 text-sm font-medium text-[#00D9FF] transition-all hover:bg-[#00D9FF] hover:text-[#0a1628]" 
                             target="_blank" 
                             rel="noreferrer"
                         >
                             View Certificate <ExternalLink size={14} />
-                        </a>
-                        <a 
+                        </a>}
+                       {exp.link&&  <a 
                             href={exp.link} 
                             className="inline-flex items-center gap-2 rounded-lg border border-red-500/50 px-4 py-2 text-sm font-medium text-red-400 transition-all hover:bg-red-500 hover:text-white" 
                             target="_blank" 
                             rel="noreferrer"
                         >
                             View Project <ExternalLink size={14} />
-                        </a>
+                        </a>}
                     </div>
                 </div>
             ))}

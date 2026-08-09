@@ -59,15 +59,16 @@ const Projects = () => {
               {/* Action Buttons */}
               <div className="mt-4 flex flex-col gap-2">
                 {project.type === 'web' ? (
-                  <a 
+                 project?.link&&( <a 
                     href={project.link} 
                     className="inline-flex w-fit items-center gap-2 rounded-lg border border-[#00D9FF]/50 px-4 py-2 text-xs font-medium text-[#00D9FF] transition-all hover:bg-[#00D9FF] hover:text-[#0a1628]" 
                     target="_blank" 
                     rel="noreferrer"
                   >
                     View Project <ExternalLink size={14} />
-                  </a>
+                  </a>)
                 ) : (
+                  
                   <Link 
                     to={`/projectshots/${project.title}`} 
                     className="inline-flex w-fit items-center gap-2 rounded-lg border border-[#00D9FF]/50 px-4 py-2 text-xs font-medium text-[#00D9FF] transition-all hover:bg-[#00D9FF] hover:text-[#0a1628]"
@@ -78,7 +79,10 @@ const Projects = () => {
 
                 {/* GitHub Links */}
                 <div className="flex flex-wrap gap-2">
-                  {project.github.length > 1 ? project.github.map((l, gIdx) => (
+                  {
+                    project?.github&&(
+                  
+                  project?.github?.length > 1 ? project?.github?.map((l, gIdx) => (
                     <a 
                       href={l} 
                       key={gIdx} 
@@ -97,7 +101,7 @@ const Projects = () => {
                     >
                       GitHub Repo <ExternalLink size={12} />
                     </a>
-                  )}
+                  ))}
                 </div>
               </div>
 
