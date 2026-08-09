@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio.sps-24723.workers.dev/sitemap.xml
