@@ -79,7 +79,7 @@ const About = () => {
             Contact Me
           </a>
           <a 
-            href="https://drive.google.com/file/d/1z1o0Tg8KjSlBXRZ6EP2BAhCz3YUCRA_j/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1kOaKJ6507EnrefeiJUIUVQ9s1DwJC8N_/view?usp=sharing" 
             target="_blank" 
             rel="noreferrer"
             className="flex flex-1 min-w-[160px] items-center justify-center gap-2 rounded-xl border-2 border-[#00D9FF] px-8 py-4 font-black uppercase tracking-wider text-[#00D9FF] transition-all hover:translate-y-[-3px] hover:bg-[#00D9FF]/10 hover:shadow-[0_12px_24px_rgba(0,217,255,0.2)] active:scale-95"
